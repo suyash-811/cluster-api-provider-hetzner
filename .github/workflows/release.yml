@@ -5,7 +5,7 @@ on:
       - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
 env:
   IMAGE_NAME: caph
-  REGISTRY: ghcr.io/syself
+  REGISTRY: ghcr.io/suyash-811
   metadata_flavor: latest=true
   metadata_tags: type=ref,event=tag
 permissions:
